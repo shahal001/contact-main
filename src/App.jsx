@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="flex items-center justify-center w-screen h-screen px-4 bg-[#00040F]">
       <div className="bg-gray-800   md:flex md:items-center md:justify-center md:gap-16 md:h-96 space-y-2">
-        <form className="flex  flex-col flex-wrap items-center justify-center md:space-y-6">
+        <form className="flex  flex-col flex-wrap items-center justify-center  md:space-y-6">
           <div className=" text-6xl  font-semibold text-white p-3 px-2 ">
             <h1 className=""> Write Us</h1>
           </div>
@@ -14,17 +14,17 @@ function App() {
           <input
             type="text"
             placeholder="Name"
-            className="p-2 pt-8 text-white w-[80%] border-b bg-transparent outline-none"
+            className="p-2  pt-8 text-white w-[80%] border-b bg-transparent outline-none"
           />
           <input
             type="email"
             placeholder="Email"
-            className="p-2 text-white w-[80%]  border-b bg-transparent outline-none"
+            className="p-2 pt-6 text-white w-[80%]  border-b bg-transparent outline-none"
           />
           <input
             type="number"
             placeholder="Phone"
-            className="p-2 text-white w-[80%]  border-b bg-transparent outline-none"
+            className="p-2 pt-6 text-white w-[80%]  border-b bg-transparent outline-none"
           />
         </form>
         <div className="flex  md:border-l  flex-col justify-center items-center  space-y-2">
