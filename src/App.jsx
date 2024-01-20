@@ -3,38 +3,41 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="flex items-center justify-center w-screen h-screen px-4 bg-[#00040F]">
-      <div className="bg-gray-800   md:flex md:items-center md:justify-center md:gap-16 md:h-96 space-y-2">
-        <form className="flex  flex-col flex-wrap items-center justify-center  md:space-y-6">
-          <div className=" text-6xl  font-semibold text-white p-3 px-2 ">
-            <h1 className=""> Write Us</h1>
-          </div>
-          <div className="w-32 h-1  rounded bg-yellow-500 "></div>
-          {/* <h1 className="text-yellow-500 px-6">______________</h1> */}
-          <input
-            type="text"
-            placeholder="Name"
-            className="p-2  pt-8 text-white w-[80%] border-b bg-transparent outline-none"
-          />
+    <div className="flex items-center justify-center h-screen ">
+      <div className="h-auto bg-[#00040F] flex flex-col space-y-3  md:flex-row md:justify-around md:gap-5 md:w-[70%]  lg:w-[50%]  md:px-0 ">
+      
+      
+        <form className="flex flex-col space-y-2 gap-2 p-5">
+        <p className="text-4xl text-orange-300 font-semibold ">WriteUs</p>
+          <input type="text" placeholder="Name" name="" id="" className="p-3 input" />
           <input
             type="email"
             placeholder="Email"
-            className="p-2 pt-6 text-white w-[80%]  border-b bg-transparent outline-none"
+            name=""
+            id=""
+            className="p-2 input "
           />
           <input
             type="number"
-            placeholder="Phone"
-            className="p-2 pt-6 text-white w-[80%]  border-b bg-transparent outline-none"
+            placeholder="Number"
+            name=""
+            id="" 
+            className="p-2 input"
           />
         </form>
-        <div className="flex  md:border-l  flex-col justify-center items-center  space-y-2">
-          <textarea
-            cols="39"
-            rows="11"
-            placeholder="Message"
-            className="p-2 w-[80%] md:mt-8  text-white outline-none  bg-transparent"
-          ></textarea>
-          <button className="bg-yellow-500 p-2 w-[100%]   ">submit</button>
+
+      
+
+        <div className="flex flex-col md:w-screen ">
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="9"
+          placeholder="Message"
+          className="p-4 input md:border-l"
+        ></textarea>
+        <button className="bg-orange-500 w-full p-2 text-white hover:bg-orange-400 active:bg-orange-600">Send</button>
         </div>
       </div>
     </div>

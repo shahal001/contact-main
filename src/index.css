@@ -2,3 +2,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components{
+    .input{
+        @apply bg-[#00040F] border-b outline-none text-white 
+    }
+}
