@@ -8,8 +8,8 @@ function App() {
       
       
         <form className="flex flex-col space-y-2 gap-2 p-5">
-        <p className="text-4xl text-orange-300 font-semibold ">WriteUs</p>
-          <input type="text" placeholder="Name" name="" id="" className="p-3 input" />
+        <p className="text-4xl text-orange-300 font-semibold tracking-wider ">Write Us</p>
+          <input type="text" placeholder="Name" name="" id="" className="p-2 input" />
           <input
             type="email"
             placeholder="Email"
@@ -35,7 +35,7 @@ function App() {
           cols="30"
           rows="9"
           placeholder="Message"
-          className="p-4 input md:border-l"
+          className="px-7 md:p-5 input md:border-l"
         ></textarea>
         <button className="bg-orange-500 w-full p-2 text-white hover:bg-orange-400 active:bg-orange-600">Send</button>
         </div>
